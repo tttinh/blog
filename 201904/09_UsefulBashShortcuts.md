@@ -16,7 +16,7 @@ The bash shell has a very rich array of convenient shortcuts that can make your 
 
 `Ctrl + w`  – delete from cursor to start of word (i.e. delete backwards one word).
 
-`Ctrl + y`  – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor.
+`Ctrl + y`  – paste text that was cut using one of the deletion shortcuts after the cursor.
 
 `Ctrl + xx` – move between start of command line and current cursor position (and back again).
 
@@ -24,9 +24,9 @@ The bash shell has a very rich array of convenient shortcuts that can make your 
 
 `Alt + f`   – move forward one word (or go to end of word the cursor is currently on).
 
-`Alt + d`   – delete to end of word starting at cursor (whole word if cursor is at the beginning of word).
+`Alt + d`   – delete to end of word starting at cursor.
 
-`Alt + c`   – capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word).
+`Alt + c`   – capitalize to end of word starting at cursor.
 
 `Alt + u`   – make uppercase from cursor to end of word.
 
@@ -76,13 +76,13 @@ Bash also has some handy features that use the ! (bang) to allow you to do some 
 
 `!blah`     – run the most recent command that starts with ‘blah’ (e.g. !ls).
 
-`!blah:p`   – print out the command that !blah would run (also adds it as the latest command in the command history).
+`!blah:p`   – print out the command that !blah would run (also adds it to the command history).
 
 `!$`        – the last word of the previous command (same as Alt + .).
 
 `!$:p`      – print out the word that !$ would substitute.
 
-`!*`        – the previous command except for the last word (e.g. if you type ‘_find somefile.txt /’, then !* would give you ‘_find somefile.txt’).
+`!*`        – the previous command except for the last word.
 
 `!*:p`      – print out what !* would substitute.
 
