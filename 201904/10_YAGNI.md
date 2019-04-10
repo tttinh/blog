@@ -30,9 +30,11 @@ There are two main reasons to practise YAGNI:
 YAGNI maximizes the amount of unnecessary work that is left undone, which is a great way to improve developer productivity and product simplicity.  Remember, features are expensive, both to develop and maintain, and for users to learn and navigate around.  Features that aren’t actually necessary are a huge source of waste.
 
 ```
-“Every line of code we don’t write is dollars we didn’t spend, and time on the calendar we get back for free.” – Tim Evans-Ariyeh
+“Every line of code we don’t write is dollars we didn’t spend, 
+and time on the calendar we get back for free.” – Tim Evans-Ariyeh
 ```
 
 ```
-“The cheapest, fastest, and most reliable components of a computer system are those that aren’t there.” – Gordon Bell
+“The cheapest, fastest, and most reliable components of a computer system 
+are those that aren’t there.” – Gordon Bell
 ```
