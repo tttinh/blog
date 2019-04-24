@@ -7,3 +7,4 @@
   - [Useful Bash Shortcuts](201904/09_UsefulBashShortcuts.md).
   - [YAGNI](201904/10_YAGNI.md).
   - [Container Benefits](201904/19_ContainerBenefits.md).
+  - [Developer Mindset](201904/23_DeveloperMindset.md).
