@@ -2,7 +2,7 @@
 
 [Home](../README.md)
 
-## What is a CrashLoopBackOff?
+## What is a CrashLoopBackOff
 
 A `CrashloopBackOff` means that you have a pod starting, crashing, starting again, and then crashing again.
 
@@ -20,13 +20,13 @@ spec:
   restartPolicy: Always
 ```
 
-## Why does a CrashLoopBackOff occur?
+## Why does a CrashLoopBackOff occur
 
-1.  The application inside the container keeps crashing.
-2.  Some type of parameters of the pod or container have been configured incorrectly.
-3.  An error has been made when deploying Kubernetes.
+1. The application inside the container keeps crashing.
+2. Some type of parameters of the pod or container have been configured incorrectly.
+3. An error has been made when deploying Kubernetes.
 
-## How can I see if there are CrashLoopBackOff in my cluster?
+## How can I see if there are CrashLoopBackOff in my cluster
 
 Run `kubectl get pods` command and we’ll be able to see the status of any pod that is currently in `CrashLoopBackOff`:
 
@@ -50,7 +50,7 @@ nginx-5796d5bc7c-2jdr5   0/1       Error     0          24s
 nginx-5796d5bc7c-xsl6p   0/1       Error     0          24s
 ```
 
-## How to troubleshoot a CrashLoopBackOff?
+## How to troubleshoot a CrashLoopBackOff
 
 Often we'll easly spot the issue after run:
 

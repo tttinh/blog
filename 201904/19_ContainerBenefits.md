@@ -8,11 +8,11 @@ Containers will not instantly turn our monolithic, legacy applications into dist
 
 Containers will not transform overnight all our software engineers into “DevOps engineers”.
 
-```
+```text
 DevOps is not defined by our tools or skills, but rather by a set of practices and cultural changes.
 ```
 
-## What can containers do for us?
+## What can containers do for us
 
 `Set up development environments in minutes` with just several commands. You can run a complex application
 locally, on any machine where Docker installed (Linux, Windows, MacOS), in a few minutes. This helps onboarding
@@ -28,4 +28,4 @@ to build their perfect custom tooling.
 
 ## References
 
-https://semaphoreci.com/blog/docker-benefits
+<https://semaphoreci.com/blog/docker-benefits>

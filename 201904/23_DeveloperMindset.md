@@ -2,7 +2,6 @@
 
 [Home](../README.md)
 
-
 ## Background
 
 There are many small factors that are slowly and gradually harming the developers’ projects. They are not immediately destructive. Most of them only do long-term damage. Something you won’t see the damage for a year or more. So when somebody proposes them, often they sound harmless. Even when you start implementing them, they may seem fine. But as time goes on — and particularly as more and more of these stacks up — the complexity becomes more apparent and grows until you’re another victim of that ever-so-common horror story.
@@ -29,26 +28,29 @@ A good developer creates things that are easy to understand so that it’s reall
 
 Now, developers are generally intelligent people and none of them likes to be treated like they are idiots. Ironically, this leads them sometimes to create things that are a bit complicated. They basically think like this:
 
-**"Oh, other developers will understand everything I’ve done here. I should write some clever code that is hard to understand so that they can think that I am very smart."**
+```text
+"Oh, other developers will understand everything I’ve done here. I should write some clever code that is hard to understand so that they can think that I am very smart."
+```
 
 A mistake caused by a wrong mindset-not necessarily by a lack of programming skills. Most of the programming failures happen because of that mentality.
 
-```
+```text
 "Complexity has nothing to do with intelligence, simplicity does." — Larry Bossidy
 ```
 
 ### Complexity
 
-```
+```text
 "Controlling complexity is the essence of computer programming." — Brian Kernighan
 ```
 
 Your main purpose is to control complexity, not to create it. The source of many software failures is complexity. Things get very complex because you expand your software purpose for no reason.
 
 How could you avoid being a victim?
--   Know your software purpose and its definition.
--   Be as simple as possible in every piece of code you write.
--   evaluate new features or change requests based on your software purpose and question them.
+
+- Know your software purpose and its definition.
+- Be as simple as possible in every piece of code you write.
+- Evaluate new features or change requests based on your software purpose and question them.
 
 As a developer, your first behavior should be resistance to (unnecessary) change. This will prevent you from adding unnecessary codes into your software. When you are convinced that this change is a need, then you can implement it.
 
@@ -78,7 +80,7 @@ When you prioritize your work, you should follow this rule:
 
 The first step is understanding. Know exactly what is being asked. Most hard problems are hard because you don’t understand them. Write down your problem and try to explain it to someone else.
 
-```
+```text
 "If you can’t explain something in simple terms, you don’t understand it." — Richard Feynman
 ```
 
@@ -88,24 +90,25 @@ The third step is dividing. Don’t try to solve one big problem. When you look 
 
 ### Good enough is fine
 
-```
+```text
 "Perfect is the enemy of good." — Voltaire
 ```
 
 Whether creating a new project or adding a feature to existing system developers tend to plan everything out in detail from the beginning. They want the first version to be perfect. They don’t focus on the problem they will solve and how their software will help people. They start by thinking every small detail they could think. Then assumptions and predictions come along followed by “What if” sentences. They have to predict the future because they were now so captivated by the imagination of the project in their mind and their project has to be as perfect as they imagined it.
 
 And what will happen are:
--   You will be writing code that isn’t needed
--   You will increase complexity by adding unnecessary codes
--   You will be too generic
--   You will be missing deadlines
--   You will be dealing with many bugs caused by the complexity
+
+- You will be writing code that isn’t needed
+- You will increase complexity by adding unnecessary codes
+- You will be too generic
+- You will be missing deadlines
+- You will be dealing with many bugs caused by the complexity
 
 **Start small, improve it, then extend.**
 
 ### Predictions and Assumptions
 
-When faced with the fact that their code will change in the future (new requirements, new requests, new features,...), some developers attempt to solve the problem by designing a solution so generic that (they believe) it will accommodate to every possible future situation. Code should be designed based on what you know now, not on what you think will happen in the future. 
+When faced with the fact that their code will change in the future (new requirements, new requests, new features,...), some developers attempt to solve the problem by designing a solution so generic that (they believe) it will accommodate to every possible future situation. Code should be designed based on what you know now, not on what you think will happen in the future.
 
 **You can’t predict the future, so no matter how generic your solution is, it will not be generic enough to satisfy the actual future requirements you will have. Being too generic involves a lot of code that isn’t needed.**
 
@@ -114,10 +117,11 @@ Code should be designed based on what you know now, not on what you think will h
 ### Stop Reinventing
 
 Don’t reinvent the wheel. The only times it’s okay to reinvent the wheel is when any of the following are true:
--   You need something that doesn’t exist yet
--   All of the existing "wheels" are bad technologies or incapable of handling your needs
--   The existing "wheels" aren’t being properly maintained
--   The existing "wheels" are too complicated for your usecases
+
+- You need something that doesn’t exist yet
+- All of the existing "wheels" are bad technologies or incapable of handling your needs
+- The existing "wheels" aren’t being properly maintained
+- The existing "wheels" are too complicated for your usecases
 
 ### Resistance
 
@@ -129,7 +133,7 @@ Don’t spend your time on repetitive tasks. Set them up and forget about them. 
 
 Code measurement
 
-```
+```text
 "Measuring programming progress by lines of code is like measuring aircraft building progress by weight." — Bill Gates
 ```
 
@@ -137,7 +141,7 @@ The optimum code is a small bunch of code that is easy to understand, easy to re
 
 ### Productivity
 
-```
+```text
 "One of my most productive days was throwing away 1000 lines of code." — Ken Thompson
 ```
 
@@ -168,10 +172,11 @@ It is important to have documentation to explain your software’s architecture 
 **Don’t depend on external technologies or reduce your dependency on them as much as possible.** Because they are another common source of complexity.
 
 It is so important to pick the right technologies for your project, you should consider before you start using some technology:
--   Is there active development behind it?
--   Will it continue to be maintained?
--   How easy is it to switch away from?
--   What does the community say about it?
+
+- Is there active development behind it?
+- Will it continue to be maintained?
+- How easy is it to switch away from?
+- What does the community say about it?
 
 ### Self-Development
 
@@ -193,4 +198,4 @@ But always seek advice. When you have tried everything, and preferably after you
 
 ## References
 
-https://medium.freecodecamp.org/learn-the-fundamentals-of-a-good-developer-mindset-in-15-minutes-81321ab8a682
+<https://medium.freecodecamp.org/learn-the-fundamentals-of-a-good-developer-mindset-in-15-minutes-81321ab8a682>
