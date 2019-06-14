@@ -11,3 +11,4 @@
   
 * June 2019
   * [Setup GCP Connection for Airflow](201906/05_SetupGCPConnectionOnAirflow.md).
+  * [Simplify C++ - Part 1](201906/14_SimplifyC++.md).
