@@ -25,3 +25,8 @@ With App Engine you can:
 - Split traffic between multiple version of your application (roll out, A/B testing,...)
 - Automatically scale up and down to zero, balance app instances across multiple available zone.
 - Integrate with Stackdriver easily for: monitoring, logging, debugging and tracing.
+
+## Some Facts
+
+- Keep in mind that only an Owner can create App Engine applications in the project and add other people to the project.
+- To build and deploy your application on Google App Engine, you need to enable Cloud Build API and App Engine Admin API. (Python3 standard environment)
