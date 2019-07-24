@@ -17,3 +17,4 @@
   * [Learning Resources](201907/01_LearningResources.md)
   * [Google App Engine](201907/18_GoogleAppEngine.md)
   * [Setup Python3 Environment](201907/19_SetupPython3Environment.md)
+  * [Setup Oh-my-zsh](201907/24_SetupZshOnUbuntu.md)
