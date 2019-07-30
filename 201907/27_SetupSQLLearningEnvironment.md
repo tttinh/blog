@@ -14,6 +14,14 @@ All you have to do is download its sample database, install your favorite SQL cl
 
 If you want to create your database or runs SQLite shell, just go to [SQLite offical sites](https://www.sqlite.org/index.html), download and install it.
 
+SQLite implements most of the common features of SQL. *Unsupported features of SQL* are shown below:
+
+- RIGHT and FULL OUTER JOIN.
+- Complete ALTER TABLE support.
+- Complete trigger support.
+- Writing to VIEWs.
+- GRANT and REVOKE.
+
 ## SELECT
 
 The syntax of the SELECT statement is as follows:
@@ -190,4 +198,16 @@ There are two ways to construct a pattern using percent sign `%` and underscore 
 - The percent sign `%` wildcard matches any sequence of zero or more characters.
 - The underscore `_` wildcard matches any single character.
 
-### INNER JOIN
+### JOIN
+
+In relational databases, data is often distributed in many related tables. A table is associated with another table using foreign keys. A join is used to combine rows from two or more tables, based on a related column between them. When you join tables, the type of join that you create in your query affects the rows that appear in the result set. You can create the following types of joins:
+
+- **Inner join**: a join that returns only those rows that have a match in both joined tables. There is only one type of inner join:
+  - (INNER) JOIN: Returns records that have matching values in both tables.
+- **Outer join**: outer joins are an extension to inner joins. An outer join returns the rows even if they don't have related rows in the joined table. There are three types of outer joins:
+  - LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table.
+  - RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table.
+  - FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table.
+- **Cross join**: cross joins are joins without a join condition. Each row of one table is combined with each row of another table. This type of result set is called a Cartesian product or cross product. Not all DBMS (Database Management System) support this type of join.
+
+#### INNER JOIN
