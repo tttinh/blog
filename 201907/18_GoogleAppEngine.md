@@ -30,3 +30,14 @@ With App Engine you can:
 
 - Keep in mind that only an Owner can create App Engine applications in the project and add other people to the project.
 - To build and deploy your application on Google App Engine, you need to enable Cloud Build API and App Engine Admin API. (Python3 standard environment)
+
+## References
+
+- [Google App Engine](https://cloud.google.com/appengine/docs/)
+- [Deciding between Compute Engine, Container Engine, App Engine and more (Google Cloud Next '17)](https://youtu.be/g0dN8Hkh5H8)
+- [Building and Deploying Microservices with App Engine and Cloud Functions (Cloud Next '18)](https://youtu.be/oALEthV9z_U)
+- [Increasing Development Velocity With App Engine and Google Cloud (Cloud Next '19)](https://youtu.be/Afe5lJE6vCg)
+- [Get to know Google App Engine](https://youtu.be/2PRciDpqpko)
+- [Introduction App Engine’s new Python 3 Runtime](https://youtu.be/qeSpDwA2qcU)
+- [Deploying a Content Management System to App Engine with Python 3](https://youtu.be/uD9PTag2-PQ)
+- [Developing apps that scale automatically with Google App Engine](https://youtu.be/HN5JKvvKUgQ)
