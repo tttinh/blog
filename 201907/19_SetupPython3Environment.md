@@ -50,7 +50,7 @@ In case you want to install the latest Python version that your system does not 
 First, prepare your system by install prerequisite packages to build Python from source.
 
 ```bash
-$ sudo apt install build-essential libssl-dev libffi-dev python3-dev
+$ sudo apt install build-essential libssl-dev libffi-dev libsqlite3-dev python3-dev
 ```
 
 Second, go to this [website](https://www.python.org/downloads/source/) to check for the latest Python version, then download its `.tgz` source file by the following command:
