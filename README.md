@@ -19,3 +19,4 @@
   * [Setup Python3 Environment](201907/19_SetupPython3Environment.md)
   * [Setup Oh-my-zsh](201907/24_SetupZshOnUbuntu.md)
   * [Setup SQL Learning Environment](201907/27_SetupSQLLearningEnvironment.md)
+  * [Google Cloud Functions](201907/29_GoogleCloudFunctions.md)
