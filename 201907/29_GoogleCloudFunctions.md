@@ -4,9 +4,17 @@
 
 ## What are Cloud Functions
 
-Google Cloud Functions is an event-driven serverless compute platform. Cloud Functions allows you to write your code without worrying about provisioning resources or scaling to handle changing requirements.
+Google Cloud Functions is an event-driven serverless compute platform.
+
+- Simplest way to run your code in the cloud
+- Automatically scales, highly available and fault tolerant
+- No servers to provision, manage, patch or update
+- Pay only while your code runs
+- Connects and extends cloud services
 
 You write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. An your function is triggered when an event being watched is fired.
+
+![console](img/29_HowItWorks.png?raw=true)
 
 There are two types of Cloud Functions:
 
@@ -132,3 +140,4 @@ The only writeable part of the filesystem is the /tmp directory, which you can u
 ## References
 
 - [Google Cloud Functions](https://cloud.google.com/functions/docs/concepts)
+- [Cloud OnAir: Build Your First Serverless Application With Google Cloud Functions](https://youtu.be/MCngVRyfrKw)
