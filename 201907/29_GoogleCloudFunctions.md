@@ -56,6 +56,68 @@ To allow Google to automatically manage and scale the functions, they must be st
 
 When the request volume exceeds the number of existing instances, Cloud Functions may start multiple new instances to handle requests. This automatic scaling behavior allows Cloud Functions to handle many requests in parallel, each using a different instance of your function.
 
+To handle HTTP, Cloud Functions uses a particular HTTP framework in each runtime:
+
+![console](img/29_HTTPFrameworks.png?raw=true)
+
+The example below shows how to read HTTP requests in Go:
+
+```go
+// Package p contains an HTTP Cloud Function.
+package p
+
+import (
+  "encoding/json"
+  "fmt"
+  "html"
+  "net/http"
+)
+
+// HelloWorld prints the JSON encoded "message" field in the body
+// of the request or "Hello, World!" if there isn't one.
+func HelloWorld(w http.ResponseWriter, r *http.Request) {
+  var d struct {
+    Message string `json:"message"`
+  }
+  if err := json.NewDecoder(r.Body).Decode(&d); err != nil {
+    fmt.Fprint(w, "Hello World!")
+    return
+  }
+  if d.Message == "" {
+    fmt.Fprint(w, "Hello World!")
+    return
+  }
+  fmt.Fprint(w, html.EscapeString(d.Message))
+}
+```
+
+This example shows a Cloud Function triggered by Cloud Pub/Sub events:
+
+```go
+// Package helloworld provides a set of Cloud Functions samples.
+package helloworld
+
+import (
+        "context"
+        "log"
+)
+
+// PubSubMessage is the payload of a Pub/Sub event.
+type PubSubMessage struct {
+        Data []byte `json:"data"`
+}
+
+// HelloPubSub consumes a Pub/Sub message.
+func HelloPubSub(ctx context.Context, m PubSubMessage) error {
+        name := string(m.Data)
+        if name == "" {
+                name = "World"
+        }
+        log.Printf("Hello, %s!", name)
+        return nil
+}
+```
+
 ### Cold Starts
 
 Starting a new function instance involves loading the runtime and your code. Requests that include function instance startup (cold starts) can be slower than requests hitting existing function instances.
