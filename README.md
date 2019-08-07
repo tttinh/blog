@@ -20,3 +20,6 @@
   * [Setup Oh-my-zsh](201907/24_SetupZshOnUbuntu.md)
   * [Setup SQL Learning Environment](201907/27_SetupSQLLearningEnvironment.md)
   * [Google Cloud Functions](201907/29_GoogleCloudFunctions.md)
+
+* August 2019
+  * [Setup Slack Connection for Airflow](201908/07_SetupSlackConnectionOnAirflow.md)
