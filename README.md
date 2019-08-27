@@ -23,3 +23,5 @@
 
 * August 2019
   * [Setup Slack Connection for Airflow](201908/07_SetupSlackConnectionOnAirflow.md)
+  * [Setup AWS Redshift Connection for Airflow](201908/08_SetupAWSRedshiftConnectionOnAirflow.md)
+  * [Optimize NGINX Tips](201908/27_OptimizeNginxTips.md)
