@@ -25,3 +25,6 @@
   * [Setup Slack Connection for Airflow](201908/07_SetupSlackConnectionOnAirflow.md)
   * [Setup AWS Redshift Connection for Airflow](201908/08_SetupAWSRedshiftConnectionOnAirflow.md)
   * [Optimize NGINX Tips](201908/27_OptimizeNginxTips.md)
+
+* September 2019
+  * [Install Docker on Ubuntu 18.04 LTS](201909/23_InstallDockerOnUbuntu.md)
