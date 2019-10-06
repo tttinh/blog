@@ -31,4 +31,5 @@
 
 * October 2019
   * [The Differences Between netstat And lsof](201910/05_NetstatAndLsof.md)
-  * [Netstat Tips And Tricks](201910/05_NetstatTipsAndTricks.md)
+  * [netstat Tips And Tricks](201910/05_NetstatTipsAndTricks.md)
+  * [lsof Tips And Tricks](201910/06_LsofTipsAndTricks.md)

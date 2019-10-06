@@ -1,4 +1,4 @@
-# Netstat Command Line Tips And Tricks
+# netstat Command Line Tips And Tricks
 
 ## Introduction
 
