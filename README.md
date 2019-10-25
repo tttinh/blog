@@ -37,3 +37,4 @@
   * [Multiple Github Accounts](2019010/15_MultiGithubAccount.md)
   * [Setup Docker With WSL](2019010/18_SetupDockerWithWSL.md)
   * [Setup Laravel PHP Framework On Ubuntu 18.04](2019010/20_SetupLaravelOnUbuntu.md)
+  * [Connect To Cloud SQL From Cloud Run](2019010/25_ConnectToCloudSQLFromCloudRun.md)
